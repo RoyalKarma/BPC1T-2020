@@ -25,9 +25,11 @@ int main()
 
 	int X;
 	int Y;
+	int MaxVzdalenost;
 	int index = 0;
-	printf("Zadejte hodnotu souradnic X a Y: \n");
-	scanf_s("%d%d", &X, &Y);
+	printf("Zadejte hodnotu souradnic X a Y a max vzdalenost: \n");
+	scanf_s("%d%d%d", &X, &Y, &MaxVzdalenost);
 	
-	printf("Index bodu nejblize je %d, prum. vzdalenost je: %lf", indexNejblizsi(POCET_BODU, body, X, Y), prumernaVzdalenost(POCET_BODU, body, X, Y));
-}
+	printf("Index bodu nejblize je %d, prum. vzdalenost je: %lf\n", indexNejblizsi(POCET_BODU, body, X, Y), prumernaVzdalenost(POCET_BODU, body, X, Y));
+	NejblizsiBody(POCET_BODU, body, X, Y, MaxVzdalenost);
+}	

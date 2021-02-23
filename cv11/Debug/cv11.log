@@ -1,0 +1,17 @@
+﻿  cv11.cpp
+C:\Users\adatu\source\repos\cv11\cv11.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\adatu\source\repos\cv11\cv11.cpp(104,32): error C2664: 'void add(char *,char *,int)': cannot convert argument 1 from 'const char [8]' to 'char *'
+C:\Users\adatu\source\repos\cv11\cv11.cpp(104,6): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\adatu\source\repos\cv11\cv11.cpp(59,6): message : see declaration of 'add'
+C:\Users\adatu\source\repos\cv11\cv11.cpp(105,30): error C2664: 'void add(char *,char *,int)': cannot convert argument 1 from 'const char [4]' to 'char *'
+C:\Users\adatu\source\repos\cv11\cv11.cpp(105,6): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\adatu\source\repos\cv11\cv11.cpp(59,6): message : see declaration of 'add'
+C:\Users\adatu\source\repos\cv11\cv11.cpp(106,34): error C2664: 'void add(char *,char *,int)': cannot convert argument 1 from 'const char [11]' to 'char *'
+C:\Users\adatu\source\repos\cv11\cv11.cpp(106,6): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\adatu\source\repos\cv11\cv11.cpp(59,6): message : see declaration of 'add'
+C:\Users\adatu\source\repos\cv11\cv11.cpp(107,39): error C2664: 'void add(char *,char *,int)': cannot convert argument 1 from 'const char [10]' to 'char *'
+C:\Users\adatu\source\repos\cv11\cv11.cpp(107,6): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\adatu\source\repos\cv11\cv11.cpp(59,6): message : see declaration of 'add'
+C:\Users\adatu\source\repos\cv11\cv11.cpp(108,30): error C2664: 'void add(char *,char *,int)': cannot convert argument 1 from 'const char [7]' to 'char *'
+C:\Users\adatu\source\repos\cv11\cv11.cpp(108,6): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\adatu\source\repos\cv11\cv11.cpp(59,6): message : see declaration of 'add'
