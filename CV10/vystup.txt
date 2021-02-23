@@ -1,0 +1,1 @@
+Pocet pismen je 72, pocet cisel je 7 a pocet slov je 17, pocet vet je 1
